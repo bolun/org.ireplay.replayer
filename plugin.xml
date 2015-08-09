@@ -20,6 +20,9 @@
 
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Replayer" >
+                <param name="android-package" value="org.apache.cordova.replayer.Replayer"/>
+            </feature>
         </config-file>
 
         <source-file src="src/android/Replayer.java" target-dir="src/org/apache/cordova/replayer" />
